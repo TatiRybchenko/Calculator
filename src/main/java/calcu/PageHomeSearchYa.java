@@ -24,12 +24,4 @@ public class PageHomeSearchYa {
         requestInput.sendKeys(request);
         searchButton.click();
     }
-
-    @Step("Нажимаем на калькулятор, строку ввода")
-   //метод  выполнения поиска по запросу по нажатию на кнопку "Enter"
-    public void searchEnter(String request) {
-        requestInput.sendKeys(request);
-        requestInput.pressEnter();
-    }
-
 }
